@@ -39,7 +39,6 @@ class LoginKontroler extends Controller
 
     public function registracija(Request $request)
     {
-        //treba uraditi validaciju
         $pravila = [
             'tbImePrezime' => [
                 'required',
